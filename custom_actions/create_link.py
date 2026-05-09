@@ -22,7 +22,7 @@ def create_kibana_link(
     api_key: Annotated[str, Doc("Kibana API Key from secret store")]
 ):
     # 1. CONFIGURATION
-    kibana_domain = "https://kibana.soc2027.secopnet.com"
+    kibana_domain = "http://localhost:5601"
     # Use the UUID from your requirement for the Data View
     index_pattern_id = "19688c57-6583-48da-9c36-bdf74f2a6536"
     
